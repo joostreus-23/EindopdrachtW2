@@ -1,0 +1,53 @@
+body {
+    background-color:wheat;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    height: 100px;
+    margin: 0 10%;
+    text-align: center;
+
+}
+
+header h1 {
+    color: blanchedalmond;
+    font-family: fantasy;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  .menu ul {
+    list-style-type: none;
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 1500px;
+    min-width: 300px;
+    margin: 5px auto;
+    overflow: visible;
+    background-color: rgb(105, 92, 74);
+    border: solid 5px white;
+
+}
+
+
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  li img {
+    display: inline-block;
+    margin-right: 15px;
+    width: 200px;
+    margin-bottom: 30px;
+  }

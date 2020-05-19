@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<head>
+    <title>Eindopdracht W2</title>
+</head>
+
+<body>
+    <header id="myheader">
+        <h1>The amazing film finder</h1>
+    </header>
+    <div id="radio-buttons">
+        <p>Waar wil je op filteren?</p>
+        <input type="radio" id="radio-nieuwste" name="filter" value="radio-nieuwste">
+        <label>Nieuwste titels (vanaf 2014)</label><br>
+        <input type="radio" id="radio-avengers" name="filter" value="avengers">
+        <label>Avengers</label><br>
+        <input type="radio" id="radio-xmen" name="filter" value="x-men">
+        <label>X-men</label>
+        <input type="radio" id="radio-princess" name="filter" value="princess">
+        <label>Princess</label>
+        <input type="radio" id="radio-batman" name="filter" value="batman">
+        <label>Batman</label>
+        <input type="radio" id="radio-alles" name="filter" value="alles">
+        <label>Alle Films</label>
+    </div>
+    <div id="movies">
+
+    </div>
+</body>
+<script defer id="moviedata" src="moviedatabase.js"></script>
+<script defer src="script.js"></script>
+
+
+</html>
